@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Hagerstown staple for over 25 years.  Family-owned Chinese Restaurant featuring huge portions of classic Asian dishes.  Take-out or Dine-in.  (301)-797-3388" />
+    <meta name="keywords" content="Chinese, food, restaurant, family, small, cozy, takeout, take-out, menu, hours, portions, deal, delicious, tasty, imperial, hagerstown" />
+    <meta name="author" content="metatags generator">
+    <meta name="robots" content="index, follow">
+    <meta name="revisit-after" content="3 month">
+    <title>Imperial Chinese Restaurant</title>
+    <!-- Chinese, Restaurant, Menu -->
+
+    <meta name="viewport" content="width=device-width">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css(.) styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+  </head>
+  <body ng-app="imperialChineseApp">
+    <!--[if lte IE 8]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!-- Add your site or application content here -->
+    <div class="container" ng-controller="AppCtrl">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+          <h3>Imperial Chinese Restaurant</h3>
+          <span class="sub">
+            13112 Pennsylvania Ave
+            <span class="glyphicon glyphicon-certificate"></span>
+            Hagerstown, MD 21742
+          </span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <div class="btn-group hidden-xs">
+            <a class="btn btn-primary btn-lg" role="button" href="#/" ng-class="{active: isActive('/')}">
+              MENU
+              <span class="glyphicon glyphicon-cutlery"></span>
+            </a>
+            <a class="btn btn-primary btn-lg" role="button" href="https://www.google.com/maps/dir//39.673165,-77.720729/@39.673165,-77.720729,17z?hl=en-US">
+              DIRECTIONS
+              <span class="glyphicon glyphicon-map-marker"></span>
+            </a>
+            <a class="btn btn-primary btn-lg" role="button" href="#/hours" ng-class="{active: isActive('/hours')}">
+              HOURS
+              <span class="glyphicon glyphicon-time"></span>
+            </a>
+            <a class="btn btn-primary btn-lg" role="button" href="tel:1-301-797-3388">
+              CALL
+              <span class="glyphicon glyphicon-earphone"></span>
+            </a>
+          </div>
+          <div class="btn-group-vertical visible-xs">
+            <a class="btn btn-primary btn-lg" role="button" href="#/" ng-class="{active: isActive('/')}">
+              MENU
+              <span class="glyphicon glyphicon-cutlery"></span>
+            </a>
+            <a class="btn btn-primary btn-lg" role="button" href="https://www.google.com/maps/dir//39.673165,-77.720729/@39.673165,-77.720729,17z?hl=en-US">
+              DIRECTIONS
+              <span class="glyphicon glyphicon-map-marker"></span>
+            </a>
+            <a class="btn btn-primary btn-lg" role="button" href="#/hours" ng-class="{active: isActive('/hours')}">
+              HOURS
+              <span class="glyphicon glyphicon-time"></span>
+            </a>
+            <a class="btn btn-primary btn-lg" role="button" href="tel:1-301-797-3388">
+              CALL
+              <span class="glyphicon glyphicon-earphone"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row"></div>
+    <div class="container">
+      <div ng-view></div>
+    </div>
+
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+     <script>
+       !function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){
+       (A[l].q=A[l].q||[]).push(arguments)},A[l].l=+new Date,a=n.createElement(g),
+       r=n.getElementsByTagName(g)[0],a.src=u,r.parentNode.insertBefore(a,r)
+       }(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+       ga('create', 'UA-XXXXX-X');
+       ga('send', 'pageview');
+    </script>
+
+    <script type="text/javascript" src="http://menus.singleplatform.co/businesses/storefront/?apiKey=ke09z8icq4xu8uiiccighy1bw">
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Restaurant",
+      "name": "Imperial Chinese Restaurant",
+      "description": "Family-owned and Operated Chinese Restaurant",
+      "openingHours": "Mo-Fr 09:00-12:00, ",
+      "telephone": "+13017973388"
+    }
+    </script>
+
+    <!-- build:js(.) scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+    <script src="bower_components/angular-touch/angular-touch.js"></script>
+    <script src="bower_components/moment/moment.js"></script>
+    <script src="bower_components/angular-moment/angular-moment.js"></script>
+    <script src="bower_components/angular-cookies/angular-cookies.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+        <!-- build:js({.tmp,app}) scripts/scripts.js -->
+        <script src="scripts/app.js"></script>
+        <script src="scripts/controllers/main.js"></script>
+        <script src="scripts/controllers/about.js"></script>
+        <script src="scripts/controllers/directions.js"></script>
+        <script src="scripts/controllers/menu.js"></script>
+        <script src="scripts/controllers/hours.js"></script>
+        <!-- endbuild -->
+</body>
+</html>

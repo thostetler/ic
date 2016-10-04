@@ -1,0 +1,19 @@
+<div class="table-responsive">
+	<table class="table">
+		<tr ng-repeat="(day, hours) in openHours">
+			<td 
+			ng-class="{ active: day === today }"
+			>{{day}}</td>
+			<td
+			class="text-right"
+			ng-class="{ active: day === today }"
+			>
+				<span ng-if="day === today" class="label label-{{message().cls}}">
+					{{message().msg}}
+				</span>&nbsp;
+				{{hours}}
+			</td>
+		</tr>
+	</table>
+</div>
+
