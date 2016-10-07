@@ -91,7 +91,7 @@
        r=n.getElementsByTagName(g)[0],a.src=u,r.parentNode.insertBefore(a,r)
        }(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-       ga('create', 'UA-XXXXX-X');
+       ga('create', 'UA-70356319-1');
        ga('send', 'pageview');
     </script>
 
@@ -102,10 +102,23 @@
     {
       "@context": "http://schema.org",
       "@type": "Restaurant",
+      "url": "http://www.imperial-chinese.net",
       "name": "Imperial Chinese Restaurant",
       "description": "Family-owned and Operated Chinese Restaurant",
-      "openingHours": "Mo-Fr 09:00-12:00, ",
-      "telephone": "+13017973388"
+      "openingHours": [
+        "Su-Th 11:00-21:00",
+        "Fr-Sa 11:00-22:00"
+      ],
+      "priceRange": "$$",
+      "servesCuisine": "Chinese"
+      "telephone": "+13017973388",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Hagerstown",
+        "addressRegion": "MD",
+        "postalCode": "21742",
+        "streetAddress": "13112 Pennsylvania Ave"
+      }
     }
     </script>
 
